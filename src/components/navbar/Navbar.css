@@ -1,0 +1,137 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    box-shadow: 0 1px 3px -2px black;
+    max-width: 100%;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    color: #626262;
+}
+
+
+.nav-login {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-login button {
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515155;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-login button:active {
+    background-color: #f3f3f3;
+}
+
+.cart-counter {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: -70px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    border-radius: 11px;
+}
+
+
+.nav-menu hr {
+    width: 80%;
+    height: 3px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #fa4141;
+
+}
+
+
+.nav-login button {
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515155;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.nav-login button:active {
+    background-color: #f3f3f3;
+}
+
+
+@media (max-width: 460px) {
+    .navbar ul {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-logo img {
+        width: 40px;
+        margin-right: 5px;
+    }
+
+    .nav-logo p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .navbar ul li {
+        font-size: 10px;
+        font-weight: 500;
+        margin-left: 5px;
+    }
+
+    .nav-login button {
+        width: 80px;
+        height: 40px;
+    }
+
+    .nav-login img {
+        width: 20px;
+        margin-left: 5px;
+    }
+}
